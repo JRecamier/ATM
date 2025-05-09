@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include "ATM.h"
+
 //prototipos de funciones
+float depositar(float D);
+float balance(float B);
+float retirar(float R);
+int cuenta(int a);
+int PIN(int P);
+int security(S);
+int valida(int X);
 
 //funcion principal
-int main()
-{/*
-    printf("Bienvenid@ a Banco NoavaCash\n");
-    menu();*/
-    return 0;
-}
-/*
 void menu()
 {
     float accion, saldo[3]={1000, 2000, 10000};
@@ -163,6 +163,7 @@ int security(S)
 float balance(float B) //Funcion que dice el saldo
 {
     printf("Tu saldo es de %.2f\n",B);
+    return 0;
 }
 
 float depositar(float D) //Funcion que permite depositar
@@ -196,7 +197,6 @@ Estas condiciones asignan valores a x dependiendo el valor de la cantidad
 Positiva++, Negativa -- e incluso 0. Funciona para depositar y retirar.
 */
 
-/*
 {
     if(X > 0)
     {
@@ -236,4 +236,9 @@ float retirar(float R) //Esta funcion retira dinero del saldo
 
     } while(verifica!=1 && verifica!=0); //condicion para retirar cantidades positivas y que al tener 0 en el saldo no de error al retirar 0
 }
-*/
+int main()
+{
+    printf("Bienvenid@ a Banco NoavaCash\n");
+    menu();
+    return 0;
+}
