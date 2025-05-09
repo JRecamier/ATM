@@ -1,7 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
+#include <string.h>
+//struct
+struct ATM{
+    char Apellido[50];
+    char NIP[5];
+    float Saldo;
+    int Nocuenta;
+} ;
 //prototipos de funciones
 float depositar(float D);
 float balance(float B);
@@ -11,9 +18,24 @@ int PIN(int P);
 int security(S);
 int valida(int X);
 
+
+
 //funcion principal
+int main()
+{
+    struct ATM Personas[100]={
+    {"Esqueda",'9823', 1000, 1},
+    {"Recamier", '2005', 1000000.24, 2},
+    {"Estrada", '1234', 100.5, 3}
+    };
+    printf("Bienvenid@ a Banco NoavaCash\n");
+    menu();
+    return 0;
+}
+
 void menu()
 {
+
     float accion, saldo[3]={1000, 2000, 10000};
     int i, opc, pin[3];
     i=cuenta(i);
@@ -236,9 +258,4 @@ float retirar(float R) //Esta funcion retira dinero del saldo
 
     } while(verifica!=1 && verifica!=0); //condicion para retirar cantidades positivas y que al tener 0 en el saldo no de error al retirar 0
 }
-int main()
-{
-    printf("Bienvenid@ a Banco NoavaCash\n");
-    menu();
-    return 0;
-}
+
