@@ -2,29 +2,32 @@
 **Guía de Instalación, Compilación y Ejecución**  
 **Proyecto:** Cajero Automático (ATM) en C  
 **Requisitos**  
-+**Sistema operativo:**  
++ **Sistema operativo:**  
 -Windows  
 -Linux   
 -macOS  
-+**Compilador de C, como:**  
++ **Compilador de C, como:**  
 -gcc (Linux/macOS o MinGW en Windows)  
 -cualquier IDE que soporte C (Code::Blocks, Dev-C++, etc.)  
 _ _ _  
 **(Opcional)** git para clonar el repositorio  
-1. Descargar el código fuente  
+1. **Descargar el código fuente**  
 *Opción 1:* Clonar el repositorio  
 git clone [link a github del repocitorio](https://github.com/JRecamier/ATM.git)cd ATM  
 *Opción 2:* Descargar ZIP  
 Ve a:[link a github del repocitorio](https://github.com/JRecamier/ATM)  
 Haz clic en Code > Download ZIP ,extrae el contenido y entra a la carpeta ATM  
-2. Compilar el programa  
+2. **Compilar el programa**  
 El archivo principal se llama atm.c. Para compilarlo:  
 *En Linux/macOS*  
-gcc atm.c -o atm  
+gcc atm.c -o atm
+
 *En Windows (con MinGW o WSL)*  
 gcc atm.c -o atm.exe  
+
 `Nota: El programa no tiene dependencias externas, así que no necesitas instalar bibliotecas adicionales.`  
-3. Ejecutar el programa  
+
+3. **Ejecutar el programa**  
 *En Linux/macOS*  
 ./atm  
 *En Windows*  
