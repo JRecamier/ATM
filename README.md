@@ -43,6 +43,8 @@ Este proyecto implementa un **sistema de cajero automático** (ATM) en C, basado
 
 ## Instalación
 
+![image](https://github.com/user-attachments/assets/c8ae56c5-ff22-4bab-a9c4-0b29205e5f41)
+
 ```bash
 # Clonar repositorio
 git clone https://github.com/tu_usuario/ATM.git
@@ -90,11 +92,11 @@ atm.exe
 _ _ _
 ![Picture of a computer with a code](https://t7m8e9c8.delivery.rocketcdn.me/wp-content/uploads/2020/05/windows-10-windows-terminal-microsoft-780x470.jpg)
 
-
-
 ---
 
 ## Guía de Usuario
+
+![https://images.vexels.com/media/users/3/137048/isolated/lists/64370a4a1c04a2bade31e1d46376270b-icono-de-trazo-de-persona-de-usuario.png](https://images.vexels.com/media/users/3/137048/isolated/lists/64370a4a1c04a2bade31e1d46376270b-icono-de-trazo-de-persona-de-usuario.png)
 
 ### Menú Principal
 
@@ -164,7 +166,10 @@ Cada opción se explica a continuación.
 
 ---
 
-## Elemento “Estrella”: **Cuentas**
+![Screenshot](https://cdn.iconscout.com/icon/free/png-256/free-code-icon-download-in-svg-png-gif-file-formats--entypo-vol-3-pack-user-interface-icons-433531.png?f=webp&w=256)
+
+## Elemento “Estrella”: **Cuentas**                                            
+
 
 ### Características de la estructura `Cuenta`
 
