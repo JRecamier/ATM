@@ -217,3 +217,8 @@ typedef struct {
 * Reconstruye las estructuras en memoria usando `malloc`.
 
 ---
+
+### MADE BY:
++ OSCAR - *GUIA DE INSTALACION ATM*
++ **RECAMIER ACEVEDO JOSE DE JESUS - *GUIA DE USUARIO***
++ EMMANUEL - *EXPLICACION/DESCRIPCION*
