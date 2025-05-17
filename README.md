@@ -1,5 +1,6 @@
 # GUIA DE INSTALACION ATM
-***PARA OSCAR*** :trollface: :trollface: :trollface:
+**Guía de Instalación, Compilación y Ejecución**
+
 # GUIA DE USUARIO
 El programa que creamos es un banco
 
