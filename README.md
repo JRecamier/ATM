@@ -21,7 +21,6 @@ Haz clic en Code > Download ZIP ,extrae el contenido y entra a la carpeta ATM
 El archivo principal se llama atm.c. Para compilarlo:  
 *En Linux/macOS*  
 gcc atm.c -o atm
-
 *En Windows (con MinGW o WSL)*  
 gcc atm.c -o atm.exe  
 
