@@ -32,7 +32,7 @@ gcc atm.c -o atm.exe
 *En Windows*  
 atm.exe  
 _ _ _
-![Terminal](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhardwaresfera.com%2Fnoticias%2Fsoftware%2Fwindows-terminal-windows-10-linux%2F&psig=AOvVaw0acZlKxH4XKG0SuvsnHK6h&ust=1747542996415000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCfw5XXqY0DFQAAAAAdAAAAABAf)
+![Picture of a computer with a code](https://t7m8e9c8.delivery.rocketcdn.me/wp-content/uploads/2020/05/windows-10-windows-terminal-microsoft-780x470.jpg)
 
 # GUIA DE USUARIO
 El programa que creamos es un banco
