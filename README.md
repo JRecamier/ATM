@@ -10,7 +10,7 @@
 -gcc (Linux/macOS o MinGW en Windows)  
 -cualquier IDE que soporte C (Code::Blocks, Dev-C++, etc.)  
 _ _ _  
-**(Opcional)** git para clonar el repositorio  
+**(Opcional cualquiera de las dos opciones)** git para clonar el repositorio  
 1. **Descargar el código fuente**  
 *Opción 1:* Clonar el repositorio  
 git clone [link a github del repocitorio](https://github.com/JRecamier/ATM.git)cd ATM  
