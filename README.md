@@ -31,7 +31,8 @@ gcc atm.c -o atm.exe
 ./atm  
 *En Windows*  
 atm.exe  
-
+_ _ _
+![](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhardwaresfera.com%2Fnoticias%2Fsoftware%2Fwindows-terminal-windows-10-linux%2F&psig=AOvVaw0acZlKxH4XKG0SuvsnHK6h&ust=1747542996415000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCfw5XXqY0DFQAAAAAdAAAAABAf)
 
 # GUIA DE USUARIO
 El programa que creamos es un banco
